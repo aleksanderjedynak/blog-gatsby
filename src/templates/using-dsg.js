@@ -1,0 +1,23 @@
+import * as React from "react"
+import { Link } from "gatsby"
+
+
+const UsingDSG = () => (
+  <>
+    <h1>
+      Hello from a <b>DSG Page</b>
+    </h1>
+    <p>This page is not created until requested by a user.</p>
+    <p>
+      To learn more, head over to our{" "}
+      <a href="src/templates/using-dsg">
+        documentation about Deferred Static Generation
+      </a>
+      .
+    </p>
+    <Link to="/">Go back to the homepage</Link>
+  </>
+)
+
+
+export default UsingDSG
